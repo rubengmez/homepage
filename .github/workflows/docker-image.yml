@@ -27,7 +27,7 @@ jobs:
       uses: docker/build-push-action@v2.9.0
       with:
         context: .
-        file: dev/build/Dockerfile
+        file: Dockerfile
         push: true
         tags: |
           ghcr.io/rubengmez/homepage:latest
